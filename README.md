@@ -212,6 +212,12 @@ All redacted project evidence is available in the [`screenshots`](screenshots/) 
 
 A detailed incident record is available in [`incident-report.md`](incident-report.md).
 
+## Cleanup and Cost Control
+
+After completing the investigation and preserving the project evidence, I removed the temporary AWS resources to prevent unnecessary charges. This included the test IAM user, CloudWatch alarm, metric filter, log group, CloudTrail trail, S3 bucket, SNS topic, CloudTrail IAM role, and its customer-managed policy.
+
+This cleanup demonstrated responsible cloud-resource lifecycle management and cost awareness.
+
 ## Lessons Learned
 
 This project showed how AWS services can be connected to form an end-to-end security monitoring workflow. It also demonstrated that detection is only one part of incident response. An analyst must validate the alert, examine the identity and source information, determine whether access succeeded, contain the affected identity, and document the outcome clearly.
