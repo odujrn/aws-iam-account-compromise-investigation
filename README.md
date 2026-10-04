@@ -4,7 +4,7 @@ A hands-on AWS security monitoring project that demonstrates how to detect, aler
 
 This project uses AWS CloudTrail, CloudWatch Logs, metric filters, CloudWatch alarms, Amazon SNS, and IAM to reproduce a simplified SOC incident-response workflow.
 
-> This was a controlled security lab performed in my own AWS account. No real account compromise occurred, and sensitive identifiers have been redacted.
+This was a controlled security lab performed in my own AWS account. No real account compromise occurred, and sensitive identifiers have been redacted.
 
 ## Project Objectives
 
